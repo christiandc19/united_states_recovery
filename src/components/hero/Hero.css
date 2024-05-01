@@ -44,13 +44,13 @@
   .hero-flex h1 {
     font-weight: 700;
     font-size: 1.7em;
-    color: white;
+    color: rgb(212, 208, 208);
     padding: 1rem;
     font-family: 'Playfair', serif;
   }
 
   .hero-flex p {
-    color: white;
+    color: rgb(223, 223, 223);
     padding: 1rem;
   }
   
@@ -139,13 +139,13 @@
   }
 
   .slideshow-caption h1 {
-    color: white;
+    color: rgb(236, 231, 231);
     font-size: 7rem;
     line-height: 4rem;
   }
 
   .slideshow-caption h2 {
-    color: white;
+    color: rgb(241, 238, 238);
     font-size: 1rem;
     text-transform: uppercase;
     padding-top: 1rem;

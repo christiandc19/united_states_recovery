@@ -22,11 +22,12 @@
 
 
 .jobs .jobs-content {
-    width: 100%;
+    width: max-content;
     display: block;
     position: absolute;
-    bottom: 15%;
+    bottom: 20%;
     padding: 1rem;
+    right: 5%;
 }
 
 .jobs h1 {
@@ -48,5 +49,11 @@
 
 .jobs h1 {
     font-size: 2rem;
+}
+
+.jobs .jobs-content {
+    bottom: 20%;
+    right: 0%;
+    width: 100%;
 }
 }
