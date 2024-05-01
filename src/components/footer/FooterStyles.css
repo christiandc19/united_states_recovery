@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.footer {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: var(--primary-color)
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.logo-footer {
+    width: 250px;
+}
+
+.logo-footer  img {
+    width: 100%;
+}
+
+.footer .top {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .top .logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer .top .footer-icon {
+    font-size: 3rem;
+    margin-right: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.footer h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+
+.col {
+    width: 300px;
+}
+
+.footer .col-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+    width: 100%;
+}
+
+.footer h3 {
+    margin: 2rem 0 1rem 0;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+
+.footer .license p {
+    color: white;
+}
+
+.footer .license img {
+    margin: 1rem 0;
+}
+
+
+.footer .license a:hover {
+    color: rgb(8, 138, 245);
+}
+
+.footer p {
+    font-family: 'Montserrat', sans-serif;
+    margin: .5rem 0;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer form {
+    width: 100%;
+    margin-bottom: .6rem;
+    position: relative;
+}
+
+.footer form input {
+    padding: 1rem;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    color: #333;
+}
+
+.footer form input:focus {
+    color: #333;
+    outline: var(--primary-color);
+    box-shadow: 0 0 8px 0 var(--primary-dark);
+}
+
+.footer form .mail-icon {
+    position: absolute;
+    font-size: 1.4rem;
+    margin: 1rem;
+    right: .2rem;
+    top: 3.8rem;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.footer form .social-icon {
+    margin: 1rem 1rem 1rem 0;
+    padding: .6rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: #f8f8f8;
+    font-size: 3rem;
+}
+
+
+.copyright p {
+    color: white;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 940px) {
+    .footer {
+        height: 100%;
+    }
+
+}
+
+

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&display=swap');
+
+.hero {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    position: relative;
+}
+
+.hero-flex {
+  display: flex;
+  padding: 1rem;
+}
+
+#content {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 32rem 0 8rem 0;    
+  }
+
+  .slideshow h1 {
+    font-family: 'Playfair', serif;
+  }
+
+  .hero-flex .hero-flexItem {
+    background-color: rgba(81, 81, 81, 0.418);
+    padding: 1rem;
+    width: 35%px;
+    height: auto;
+  }
+
+  .hero-flex .hero-flexItem3 {
+    background-color: #052d4f;
+    border-radius:  0 25px 25px 0;
+  }
+
+  .hero-flex .hero-flexItem1 {
+    border-radius:  25px 0 0 25px;
+    border-right: solid .5px #eff3f39d;
+  }
+
+  .hero-flex h1 {
+    font-weight: 700;
+    font-size: 1.7em;
+    color: white;
+    padding: 1rem;
+    font-family: 'Playfair', serif;
+  }
+
+  .hero-flex p {
+    color: white;
+    padding: 1rem;
+  }
+  
+  .slideshow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .slideshow ul li img{
+    height: auto;
+  }
+
+  .slideshow li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 35s linear infinite;
+  }
+  
+  .slideshow li:nth-child(1) {
+    background: linear-gradient(to top, #00000079, #00000081), url('../../assets/United_States_Recovery_Slide1.webp') no-repeat center center/cover;
+  }
+  
+  .slideshow li:nth-child(2) {
+    background: linear-gradient(to top, #00000079, #00000081), url('../../assets/United_States_Recovery_Slide2.webp') no-repeat center center/cover;
+    animation-delay: 7s;
+  }
+  
+  .slideshow li:nth-child(3) {
+    background: linear-gradient(to top, #00000079, #00000081), url('../../assets/United_States_Recovery_Slide3.webp') no-repeat center center/cover;
+    animation-delay: 14s;
+  }
+  
+  .slideshow li:nth-child(4) {
+    background: linear-gradient(to top, #00000079, #00000081), url('../../assets/United_States_Recovery_Slide4.webp') no-repeat center center/cover;
+    animation-delay: 21s;
+  }
+  
+  .slideshow li:nth-child(5) {
+    background: linear-gradient(to top, #00000079, #00000081), url('../../assets/United_States_Recovery_Slide5.webp') no-repeat center center/cover;
+    animation-delay: 28s;
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      opacity: 0;
+      animation-timing-function: ease-in;
+    }
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      opacity: 1
+    }
+    30% {
+      opacity: 0
+    }
+  }
+  
+  /* Older browser support */
+  .no-cssanimations .slideshow li { opacity: 1; }
+  
+
+  .slideshow-caption {
+    position: absolute;
+    top: 22%;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .slideshow-caption h1 {
+    color: white;
+    font-size: 7rem;
+    line-height: 4rem;
+  }
+
+  .slideshow-caption h2 {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-family: 'Gothic A1', sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .slideshow-caption h3 {
+    color: #e0a708;
+    font-size: 1rem;
+    padding: 1rem 0;
+    letter-spacing: 3px;
+  }
+
+#content .hero-btn button {
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: .5rem 2.5rem;
+}
+
+#content .hero-btn button:hover {
+  background-color: rgba(255, 255, 255, 0.726);
+  color: var(--primary-color);
+  border: none;
+}
+
+
+
+  @media screen and (max-width: 1200px) {
+    .slideshow-caption {
+      top: 20%;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 940px) {
+    .hero-flex {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .hero-flex .hero-flexItem3 {
+      border-radius:  0 0 25px 25px ;
+    }
+  
+    .hero-flex .hero-flexItem1 {
+      border-radius:  25px 25px 0 0;
+      border-bottom: solid .5px #005f599d;
+      border-right: none;
+    }
+
+    #content {
+      z-index: 1;
+      position: relative;
+      text-align: center;
+      padding: 38rem 0 2rem 0;    
+    }
+
+    .slideshow-caption h2 {
+      font-size: 1rem;
+      padding-top: .5rem;
+    }
+  
+
+    .slideshow-caption h1 {
+      font-size: 5rem;
+    }
+
+  }
