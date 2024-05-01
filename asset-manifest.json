@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/united_states_recovery/static/css/main.6e225f37.css",
+    "main.css": "/united_states_recovery/static/css/main.7fd4f5ec.css",
     "main.js": "/united_states_recovery/static/js/main.82ec57cb.js",
     "static/media/treatment-plan.jpg": "/united_states_recovery/static/media/treatment-plan.4a7bdaaa9ab46b83274a.jpg",
     "static/media/activities-min.jpg": "/united_states_recovery/static/media/activities-min.48cfa672130c3293fc8d.jpg",
@@ -65,11 +65,11 @@
     "static/media/horizon.webp": "/united_states_recovery/static/media/horizon.cbfbfc8b21eb86573ce8.webp",
     "index.html": "/united_states_recovery/index.html",
     "static/media/waves.svg": "/united_states_recovery/static/media/waves.e42ddec972c9ec214abc0ac6e8439ee4.svg",
-    "main.6e225f37.css.map": "/united_states_recovery/static/css/main.6e225f37.css.map",
+    "main.7fd4f5ec.css.map": "/united_states_recovery/static/css/main.7fd4f5ec.css.map",
     "main.82ec57cb.js.map": "/united_states_recovery/static/js/main.82ec57cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e225f37.css",
+    "static/css/main.7fd4f5ec.css",
     "static/js/main.82ec57cb.js"
   ]
 }
