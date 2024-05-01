@@ -21,10 +21,10 @@ const Menus = () => {
     <>
       <div className="mh-cards-header container">
         <h1>
-          Redding Rehab TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS{" "}
+          United States Recovery TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH PROGRAMS{" "}
         </h1>
         <p>
-          At Redding Rehab Treatment Center, clients receive individual therapy
+          At United States Recovery Treatment Center, clients receive individual therapy
           alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to

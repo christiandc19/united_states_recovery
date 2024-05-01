@@ -33,7 +33,7 @@ const Hero = () => {
                   </div>
 
                   <p>
-                  No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Redding Rehab Treatment Center.
+                  No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at United States Recovery Treatment Center.
                   </p>
                 </div>
 

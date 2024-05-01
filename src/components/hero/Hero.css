@@ -132,7 +132,7 @@
 
   .slideshow-caption {
     position: absolute;
-    top: 22%;
+    top: 30%;
     width: 100%;
     text-align: center;
     padding: 1rem;
@@ -148,7 +148,7 @@
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-family: 'Gothic A1', sans-serif;
     letter-spacing: 2px;
   }

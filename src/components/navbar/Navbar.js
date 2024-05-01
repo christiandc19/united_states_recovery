@@ -46,7 +46,7 @@ const Navbar = () => {
             <Link to="/">
               <img
                 src={logo}
-                alt="Redding Rehab Logo"
+                alt="United States Recovery Logo"
                 loading="lazy"
               />
             </Link>

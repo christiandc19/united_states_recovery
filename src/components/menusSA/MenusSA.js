@@ -23,7 +23,7 @@ const MenusSA = () => {
     <>
       <div className="mh-cards-header container">
         <h1>
-          REDDING REHAB TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE PROGRAMS{" "}
+          UNITED STATES RECOVERY TREATMENT CENTER OFFERS VARIOUS SUBSTABCE ABUSE PROGRAMS{" "}
         </h1>
         <p>
           There are numerous options for addressing concerns related to

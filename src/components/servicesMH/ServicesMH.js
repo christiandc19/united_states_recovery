@@ -1,7 +1,7 @@
 import React from 'react'
 import './ServicesMH.css'
 import Fade from 'react-reveal/Fade';
-import ServicesMH1 from "../../assets/servicesMH1.png";
+import ServicesMH1 from "../../assets/sad_girl.webp";
 import { BsCheckLg } from "react-icons/bs";
 import { Link as LinkRoll } from "react-scroll";
 import { Link } from 'react-router-dom';

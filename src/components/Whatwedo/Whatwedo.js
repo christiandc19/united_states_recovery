@@ -2,7 +2,7 @@ import React from "react";
 import "./Whatwedo.css";
 import Fade from 'react-reveal/Fade';
 
-import wrapper1 from "../../assets/wrapper1-min.jpg";
+import wrapper1 from "../../assets/wrapper1-min.webp";
 
 const WhatWeDo = () => {
   return (
@@ -24,7 +24,7 @@ const WhatWeDo = () => {
 
             <Fade left>
             <p>
-              At Redding Rehab Treatment Center, we offer different levels of
+              At United States Recovery Treatment Center, we offer different levels of
               care based on each individual’s needs. Our programs consist of an
               intensive outpatient program (IOP) and a more demanding and
               structured partial hospitalization program (PHP). You can be

@@ -17,10 +17,10 @@ const Footer = () => {
             <div className="logo-footer">
               <img
                 src={logo}
-                alt="Redding Rehab Logo"
+                alt="United States Recovery Logo"
                 loading="lazy"
               />
-              {/* <h1>Redding Rehab</h1> */}
+              {/* <h1>United States Recovery</h1> */}
             </div>
             <LinkRoll
               activeClass="active"
@@ -190,7 +190,7 @@ const Footer = () => {
                   src={DHCS}
                   width="300px"
                   height="150px"
-                  alt="Redding Rehab Logo"
+                  alt="United States Recovery Logo"
                   loading="lazy"
                 />
               </div>
@@ -199,7 +199,7 @@ const Footer = () => {
           </div>
 
           <p className="copyright">
-            <p>&copy; 2023 Redding Rehab. All rights reserved</p>
+            <p>&copy; 2023 United States Recovery. All rights reserved</p>
           </p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import "./Whoweare.css";
 import Fade from 'react-reveal/Fade';
 
 import { BsCheckLg } from "react-icons/bs";
-import HomeSection2Image from "../../assets/whoWeAre1-min.jpg";
+import HomeSection2Image from "../../assets/whoWeAre1-min.webp";
 
 const Whoweare = () => {
   return (
@@ -12,7 +12,7 @@ const Whoweare = () => {
         <div className="homeSection2-content container">
           <div className="homeSection2-left">
             <Fade left>
-            <h1>ABOUT REDDING REHAB</h1>
+            <h1>ABOUT UNITED STATES RECOVERY</h1>
             </Fade>
 
             <Fade right>
@@ -21,7 +21,7 @@ const Whoweare = () => {
 
             <Fade left>
             <p>
-              At Redding Rehab, we provide safe and comfortable medical detox
+              At United States Recovery, we provide safe and comfortable medical detox
               services for those struggling with addiction.
             </p>
             </Fade>

@@ -23,7 +23,7 @@ const ServicesSA = () => {
                     <h2>Substance Abuse Programs</h2>
                     </Fade>
                     <Fade left>
-                    <p>No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at Redding Rehab Treatment Center.</p>
+                    <p>No matter what type of addiction or mental health condition you are dealing with, there’s something for everyone at United States Recovery Treatment Center.</p>
                     </Fade>
                 </div>
 
