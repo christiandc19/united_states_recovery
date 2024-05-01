@@ -17,39 +17,28 @@
   }
   
 
-.opiate {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .opiate .opiate-content {
     display: block;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
     padding: 1rem;
 }
 
 .opiate h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:700px) {
 
 .opiate h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.opiate .opiate-content {
-    width: 100%;
-    top: 60%;
-    left: 0%;
+    font-size: 2rem;
 }
 
 }

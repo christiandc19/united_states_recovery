@@ -8,7 +8,6 @@ const Meth = () => {
 
                 <div className="meth-content">
                     <Fade top>
-                    <h3>- </h3>
                     <h1>METH ADDICTION</h1>
                     </Fade>
             </div>

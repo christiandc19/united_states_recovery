@@ -17,39 +17,27 @@
   }
   
 
-.meth {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .meth .meth-content {
     display: block;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    bottom: 25%;
     padding: 1rem;
+    width: 100%;
 }
 
 .meth h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: center;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:700px) {
 
 .meth h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.meth .meth-content {
-    width: 100%;
-    top: 60%;
-    left: 0%;
+    font-size: 2rem;
 }
 
 }

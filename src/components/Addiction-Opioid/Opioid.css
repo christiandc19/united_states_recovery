@@ -15,41 +15,28 @@
     width: 100%;
     z-index: -1;
   }
-  
-
-.opioid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .opioid .opioid-content {
     display: block;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
     padding: 1rem;
 }
 
 .opioid h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:700px) {
 
 .opioid h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.opioid .opioid-content {
-    width: 100%;
-    top: 60%;
-    left: 0%;
+    font-size: 2rem;
 }
 
 }

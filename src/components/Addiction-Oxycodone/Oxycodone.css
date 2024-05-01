@@ -15,41 +15,28 @@
     width: 100%;
     z-index: -1;
   }
-  
-
-.oxycodone {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 .oxycodone .oxycodone-content {
     display: block;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    bottom: 25%;
+    width: 100%;
+    text-align: center;
     padding: 1rem;
 }
 
 .oxycodone h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:700px) {
 
 .oxycodone h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.oxycodone .oxycodone-content {
-    width: 100%;
-    top: 60%;
-    left: 0%;
+    font-size: 2rem;
 }
 
 }
