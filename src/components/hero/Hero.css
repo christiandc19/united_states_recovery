@@ -43,7 +43,7 @@
 
   .hero-flex h1 {
     font-weight: 700;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: rgb(212, 208, 208);
     padding: 1rem;
     font-family: 'Playfair', serif;
@@ -52,6 +52,7 @@
   .hero-flex p {
     color: rgb(223, 223, 223);
     padding: 1rem;
+    font-size: 12px;
   }
   
   .slideshow {
@@ -132,7 +133,7 @@
 
   .slideshow-caption {
     position: absolute;
-    top: 30%;
+    top: 35%;
     width: 100%;
     text-align: center;
     padding: 1rem;
